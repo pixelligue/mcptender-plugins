@@ -1,0 +1,10 @@
+- insert:
+    - id: mcptender-mcp
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: mcptender
+        transport: streamable-http
+        url: https://mcptender.ru/mcp
+        headers:
+          Authorization: !!js '"Bearer " + process.env.MCPTENDER_API_KEY'
+        failOnStartupError: true

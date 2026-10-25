@@ -1,0 +1,28 @@
+{
+  "name": "mcptender",
+  "version": "1.0.0",
+  "description": "Research public Russian procurement records, source documents and published contract suppliers.",
+  "author": {
+    "name": "Aleks Tartik"
+  },
+  "homepage": "https://mcptender.ru",
+  "license": "MIT",
+  "keywords": [
+    "procurement",
+    "mcp",
+    "documents"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MCPTender",
+    "shortDescription": "Research public Russian procurement records, source documents and published contract suppliers.",
+    "developerName": "Aleks Tartik",
+    "websiteURL": "https://mcptender.ru"
+  },
+  "mcpServers": {
+    "mcptender": {
+      "url": "https://mcptender.ru/mcp",
+      "bearerTokenEnvVar": "MCPTENDER_API_KEY"
+    }
+  }
+}

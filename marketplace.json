@@ -1,0 +1,12 @@
+{
+  "name": "mcptender-plugins",
+  "plugins": [
+    {
+      "name": "mcptender",
+      "source": "./",
+      "version": "1.0.0",
+      "description": "Research public Russian procurement records, source documents and published contract suppliers.",
+      "category": "productivity"
+    }
+  ]
+}
